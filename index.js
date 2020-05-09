@@ -47,8 +47,6 @@ function parseArcana(message) {
     '隠者': 9,
   };
 
-  console.log(message);
-
   if (message in arcana_list) {
     return arcana_list[message];
   }
