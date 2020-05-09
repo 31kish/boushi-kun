@@ -1,4 +1,3 @@
-const Moment = require('moment');
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = process.env.BOUSHI_TOKEN;
