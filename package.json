@@ -1,0 +1,12 @@
+{
+  "name": "boushi-kun",
+  "version": "1.0.0",
+  "description": "my discord bot",
+  "main": "index.js",
+  "author": "keishi kuwabara",
+  "dependencies": {
+    "discord.js": "^12.0",
+    "moment": "^2.25",
+    "forever": "^2.0"
+  }
+}
