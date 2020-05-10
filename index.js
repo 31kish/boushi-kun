@@ -9,7 +9,7 @@ client.on('ready', () => {
 client.on('message', message => {
   if (message.author.bot) return;
 
-  if (message.mentions.has(client.user)) {
+  if (message.mentions.has(client.user) && !message.mentions.everyone) {
     const split_msg = message.cleanContent.split(' ');
 
     if (split_msg.length <= 1){
