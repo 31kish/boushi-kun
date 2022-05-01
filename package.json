@@ -7,6 +7,6 @@
   "dependencies": {
     "discord.js": "^12.0",
     "forever": "^2.0",
-    "moment": "^2.25"
+    "moment": "^2.29"
   }
 }
